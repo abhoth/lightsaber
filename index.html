@@ -6,12 +6,45 @@
 <style>
 body{background:#000;}
 
-img{position:absolute;width:125px}
+.img1
+
+{
+	
+	position:absolute;width:125px;
+
+	transform: rotate(110deg) ;
+	-webkit-transform: rotate(110deg) ;
+	-moz-transform: rotate(110deg) ;
+	-o-transform: rotate(110deg) ;
+	-ms-transform: rotate(110deg) ;
+	left:200px;
+
+
+
+}
+
+.img2
+
+{
+	
+	position:absolute;width:125px;
+
+	transform: rotate(-110deg) ;
+	-webkit-transform: rotate(-110deg) ;
+	-moz-transform: rotate(-110deg) ;
+	-o-transform: rotate(-110deg) ;
+	-ms-transform: rotate(-110deg) ;
+	right:200px;
+
+
+
+}
 </style>
 </head>
 
 <body>
-<img id="lightsaber" src="img/blue.png" alt="lightsaber" />
+<img id="lightsaber" class="img1" src="img/blue.png" alt="lightsaber" />
+<img id="lightsaber2" class="img2" src="img/red.png" alt="lightsaber" />
 
 <script type="text/javascript" src="js/jquery-1.12.1.min.js"></script>
 <script type="text/javascript" src="js/randomizer.js"></script>

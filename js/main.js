@@ -10,6 +10,9 @@ var App = function($){
 
 		var shimmer = new Shimmer($('#lightsaber'), 80, 125);
 		shimmer.init();
+		
+		var shimmer2 = new Shimmer($('#lightsaber2'), 80, 125);
+		shimmer2.init();
         
     }
 
