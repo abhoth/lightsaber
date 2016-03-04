@@ -8,11 +8,14 @@ var App = function($){
 
     function _init(){
 
-		var shimmer = new Shimmer($('#lightsaber'), 80, 125);
+		var shimmer = new Shimmer($('#lightsaber1'), 80, 125);
 		shimmer.init();
 		
 		var shimmer2 = new Shimmer($('#lightsaber2'), 80, 125);
 		shimmer2.init();
+		
+		var battle = new Battle($('#lightsaber1'), $('#lightsaber2'),$('#btnBattle'));
+		battle.init();
         
     }
 
